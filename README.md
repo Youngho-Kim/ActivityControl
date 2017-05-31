@@ -12,6 +12,7 @@ final int BUTTON_START = 99;
 Intent intent = new Intent(this, 서브.class);
 StartActivityForResult(intent, BUTTON_START);
 ...
+
 [소스코드 전체보기](https://github.com/Youngho-Kim/ActivityControl/blob/master/app/src/main/java/com/android/kwave/activitycontrol/MainActivity.java)
 
 ## setResult
@@ -57,4 +58,5 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     }
 
 }
+
 [소스코드 전체보기](https://github.com/Youngho-Kim/ActivityControl/blob/master/app/src/main/java/com/android/kwave/activitycontrol/SubActivity.java)
